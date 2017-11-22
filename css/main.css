@@ -13,6 +13,12 @@ header {
   background-color: white;
 }
 
+.logo {
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+
 .main-menu {
   text-align: center;
 }
@@ -90,7 +96,8 @@ margin-top: -5.5em;
 footer {
   background-color: white;
   font-family: 'Lato', sans-serif;
-  font-size: 30px;
+  font-weight: 400;
+  font-size: 10px;
 }
 
 .facebook, .linkedin, .instagram, .email {
@@ -110,9 +117,6 @@ footer {
 
 @media only screen and (min-width: 608px) {
 
-  .main-menu {
-    text-align: right;
-  }
 
   h1 {
   margin-left: 8em;
@@ -123,6 +127,17 @@ footer {
 }
 
 @media only screen and (min-width: 960px) {
+
+  .menu {
+    text-align: right;
+  }
+
+  .logo {
+    float: left;
+    display: block;
+    margin-left: 2em;
+    width: 30%;
+  }
 
   h1 {
     margin-left: 8.5em;
@@ -142,6 +157,10 @@ footer {
 }
 
 @media only screen and (min-width: 1440px) {
+
+  .logo {
+    width: 20%;
+  }
 
   h1 {
     margin-left: 9.5em;

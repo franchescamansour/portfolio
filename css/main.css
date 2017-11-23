@@ -41,6 +41,16 @@ header {
   min-height: 100vh;
   background-color: white;
 }
+
+.boxes {
+  opacity: .5;
+  filter: contrast(100%) grayscale(100%);
+}
+
+.boxes:hover {
+  opacity: 1;
+  filter: contrast(100%) grayscale(0%);
+}
 /*PORTFOLIO END*/
 
 /*VIDEO*/
@@ -94,24 +104,50 @@ margin-top: -5.5em;
 
 /*FOOTER*/
 footer {
-  background-color: white;
+  background-color: black;
 }
 
 footer p {
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 30px;
+  color: white;
 }
 
 footer a{
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   text-decoration: none;
   color: #9500ff;
 }
 
 footer a:hover {
-  color: black;
+  color: white;
+}
+
+form {
+  color: #aeaeae;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  width: 80%;
+  display: inline-block;
+  text-align: left;
+}
+
+form input, textarea{
+  background-color: transparent;
+}
+
+.btn{
+  background-color: transparent;
+  color: #aeaeae;
+  border-color: #aeaeae;
+}
+
+.btn:hover {
+  color: #9500ff;
+  background-color: transparent;
+  border-color: #9500ff;
 }
 /*FOOTER END*/
 
@@ -127,11 +163,15 @@ footer a:hover {
 
 @media only screen and (min-width: 608px) {
 
-
   h1 {
   margin-left: 8em;
   margin-right: 1em;
   margin-top: -6em;
+  }
+
+  footer li{
+  display: inline-block;
+  padding: 2em;
   }
 
 }
@@ -164,6 +204,10 @@ footer a:hover {
     padding-left: 5em;
   }
 
+  form{
+    width: 70%;
+  }
+
 }
 
 @media only screen and (min-width: 1440px) {
@@ -175,7 +219,7 @@ footer a:hover {
   h1 {
     margin-left: 9.5em;
     line-height: 1;
-    margin-top: -10em;
+    margin-top: -8.5em;
     font-size: 70px;
   }
 
@@ -187,8 +231,8 @@ footer a:hover {
     padding-right: 4em;
   }
 
-  .facebook, .linkedin, .instagram, .email {
-    width: 5%;
+  form{
+    width: 60%;
   }
 
 }

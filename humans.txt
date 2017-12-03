@@ -1,0 +1,16 @@
+/* TEAM */
+
+Designer & Developer: Franchesca Mansour <info@franchesca.ca>
+Site: http://franchesca.ca
+Location: Ottawa, Canada.
+
+---
+
+/* TECHONOLOGY */
+
+- Atom
+- Git + Github
+
+/* HOSTING */
+
+- Hover <http://hover.com>

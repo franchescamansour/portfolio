@@ -1,0 +1,5 @@
+Sitemap: https://franchesca.ca/sitemap.xml
+
+User-agent: *
+
+Disallow: /img

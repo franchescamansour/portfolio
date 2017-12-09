@@ -199,7 +199,7 @@ footer p {
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 30px;
-  color: #4C394F;
+  color: #B6836E;
 }
 
 footer a{
@@ -210,11 +210,11 @@ footer a{
 }
 
 footer a:hover {
-  color: white;
+  color: #B6836E;
 }
 
 form {
-  color: #4C394F;
+  color: #B6836E;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   width: 80%;
@@ -229,7 +229,7 @@ form input, textarea{
 
 .btn{
   background-color: transparent;
-  color: #4C394F;
+  color: #B6836E;
   border-color: #4C394F;
 }
 
@@ -295,6 +295,10 @@ form input, textarea{
 
   form {
     width: 70%;
+  }
+
+  footer {
+    height: 100vh;
   }
 
 }

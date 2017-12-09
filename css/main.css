@@ -10,7 +10,7 @@ body {
 /*NAV*/
 header {
   margin-top: -1.5em;
-  background-color: white;
+  background-color: #FBC7B3;
 }
 
 .logo {
@@ -27,14 +27,40 @@ header {
   text-decoration: none;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  color: black;
+  color: #B6836E;
 }
 
 .nav a:hover {
-  color: #9500ff;
+  color: white;
   font-weight:400;
 }
 /*NAV*/
+
+
+/*HERO*/
+.hero {
+  padding: 10%;
+  background-image: url('../images/franback.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.intro {
+  font-family: 'Lato', sans-serif;
+  color: #B6836E;
+  font-size: 14px;
+}
+
+.intro-1 {
+  font-family: 'Lato', sans-serif;
+  color: #B6836E;
+  font-size: 24px;
+}
+
+
+/*HERO END*/
 
 /*PORTFOLIO*/
 .portfolio {
@@ -52,6 +78,54 @@ header {
   filter: contrast(100%) grayscale(0%);
 }
 /*PORTFOLIO END*/
+
+/*LIGHTBOX*/
+
+.def{
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  color: white;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height:100%;
+  text-align: center;
+}
+
+.lightboxbg {
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height:100%;
+}
+
+.lightboxcontent{
+  z-index: 1000;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+}
+
+.lightbox:target {
+  outline: none;
+  display: block;
+  min-height: 100%;
+}
+/*LIGHTBOX END*/
 
 /*VIDEO*/
 .embed {
@@ -104,21 +178,21 @@ margin-top: -5.5em;
 
 /*FOOTER*/
 footer {
-  background-color: black;
+  background-color: #CD937C;
 }
 
 footer p {
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 30px;
-  color: white;
+  color: #FBC7B3;
 }
 
 footer a{
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   text-decoration: none;
-  color: #9500ff;
+  color: #FBC7B3;
 }
 
 footer a:hover {
@@ -126,9 +200,9 @@ footer a:hover {
 }
 
 form {
-  color: #aeaeae;
+  color: #FBC7B3;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   width: 80%;
   display: inline-block;
   text-align: left;
@@ -136,18 +210,19 @@ form {
 
 form input, textarea{
   background-color: transparent;
+  border-color: #FBC7B3;
 }
 
 .btn{
   background-color: transparent;
-  color: #aeaeae;
-  border-color: #aeaeae;
+  color: #FBC7B3;
+  border-color: #FBC7B3;
 }
 
 .btn:hover {
-  color: #9500ff;
+  color: white;
   background-color: transparent;
-  border-color: #9500ff;
+  border-color: white;
 }
 /*FOOTER END*/
 

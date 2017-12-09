@@ -8,15 +8,21 @@ body {
 
 
 /*NAV*/
+
+
 header {
   margin-top: -1.5em;
-  background-color: #FBC7B3;
+  background-color: #250D29;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
 }
 
 .logo {
   padding: 0;
   margin: 0;
   width: 50%;
+  margin-bottom: 1em;
 }
 
 .main-menu {
@@ -27,7 +33,7 @@ header {
   text-decoration: none;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  color: #B6836E;
+  color: #CD937C;
 }
 
 .nav a:hover {
@@ -39,13 +45,23 @@ header {
 
 /*HERO*/
 .hero {
+  height: 100vh;
   padding: 10%;
+  /*background-color: #250D29;*/
   background-image: url('../images/franback.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+
+.ban {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 .intro {
   font-family: 'Lato', sans-serif;
@@ -56,7 +72,7 @@ header {
 .intro-1 {
   font-family: 'Lato', sans-serif;
   color: #B6836E;
-  font-size: 24px;
+  font-size: 32px;
 }
 
 
@@ -65,7 +81,7 @@ header {
 /*PORTFOLIO*/
 .portfolio {
   min-height: 100vh;
-  background-color: white;
+  background-color: #250d29;
 }
 
 .boxes {
@@ -128,6 +144,7 @@ header {
 /*LIGHTBOX END*/
 
 /*VIDEO*/
+/*
 .embed {
   margin-left: 0;
   margin-right: 0;
@@ -147,28 +164,25 @@ header {
   top: 0;
   width: 100%;
 }
-
+*/
 /*VIDEO END*/
 
 h1 {
-position: absolute;
 font-family: 'Lato', sans-serif;
-color: Black;
-margin-left: 6em;
-margin-top: -5.5em;
+color: #CD937C;
 }
 /*ABOUT ME*/
 
-.blurb {
-    background-color: white;
+.aboutme {
+    background-color: #ffede6;
+    padding: 10%;
 }
 
 .blurb p {
-  padding: 3em;
   text-align: left;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  color: black;
+  color: #CD937C;
 }
 /*ABOUT ME END*/
 
@@ -178,21 +192,21 @@ margin-top: -5.5em;
 
 /*FOOTER*/
 footer {
-  background-color: #CD937C;
+  background-color: #250d29;
 }
 
 footer p {
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 30px;
-  color: #FBC7B3;
+  color: #4C394F;
 }
 
 footer a{
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   text-decoration: none;
-  color: #FBC7B3;
+  color: #4C394F;
 }
 
 footer a:hover {
@@ -200,7 +214,7 @@ footer a:hover {
 }
 
 form {
-  color: #FBC7B3;
+  color: #4C394F;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   width: 80%;
@@ -210,13 +224,13 @@ form {
 
 form input, textarea{
   background-color: transparent;
-  border-color: #FBC7B3;
+  border-color: #4C394F;
 }
 
 .btn{
   background-color: transparent;
-  color: #FBC7B3;
-  border-color: #FBC7B3;
+  color: #4C394F;
+  border-color: #4C394F;
 }
 
 .btn:hover {
@@ -229,29 +243,11 @@ form input, textarea{
 /*MEDIA QUERIES*/
 @media only screen and (min-width: 400px) {
 
-  h1 {
-    margin-top: -6em;
-    margin-left: 7em;
-  }
+
 
 }
 
 @media only screen and (min-width: 608px) {
-
-  h1 {
-  margin-left: 8em;
-  margin-right: 1em;
-  margin-top: -6em;
-  }
-
-  footer li{
-  display: inline-block;
-  padding: 2em;
-  }
-
-}
-
-@media only screen and (min-width: 960px) {
 
   .menu {
     text-align: right;
@@ -264,22 +260,40 @@ form input, textarea{
     width: 30%;
   }
 
-  h1 {
-    margin-left: 8.5em;
-    padding: .5em;
-    margin-top: -10em;
-    font-size: 50px;
+  .intro-1 {
+    font-size: 36px;
   }
 
-  .blurb p {
-    position: absolute;
+  .intro {
     font-size: 16px;
-    margin-top: -23em;
-    margin-left: 24em;
-    padding-left: 5em;
   }
 
-  form{
+  footer li {
+  display: inline-block;
+  padding: 2em;
+  }
+
+}
+
+@media only screen and (min-width: 960px) {
+
+  .intro-1 {
+    font-size: 58px;
+  }
+
+  .intro {
+    font-size: 18px;
+  }
+
+  .logo {
+    width: 20%;
+  }
+
+  .aboutme {
+    height: 100vh;
+  }
+
+  form {
     width: 70%;
   }
 
@@ -289,21 +303,6 @@ form input, textarea{
 
   .logo {
     width: 20%;
-  }
-
-  h1 {
-    margin-left: 9.5em;
-    line-height: 1;
-    margin-top: -8.5em;
-    font-size: 70px;
-  }
-
-  .blurb p {
-    font-size: 18px;
-    margin-top: -25em;
-    margin-left: 37em;
-    padding: 3em;
-    padding-right: 4em;
   }
 
   form{

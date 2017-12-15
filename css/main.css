@@ -32,13 +32,13 @@ header {
 .nav a {
   text-decoration: none;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   color: #CD937C;
 }
 
 .nav a:hover {
   color: white;
-  font-weight:400;
+  font-weight:300;
 }
 /*NAV*/
 
@@ -179,10 +179,18 @@ color: #CD937C;
 }
 
 .blurb p {
-  text-align: left;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
   color: #CD937C;
+}
+
+.talk {
+  text-align: left;
+  font-weight: 300;
+}
+
+.iam {
+  font-weight: 400;
+  word-spacing: 5px;
 }
 /*ABOUT ME END*/
 

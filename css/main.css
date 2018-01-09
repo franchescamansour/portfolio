@@ -12,7 +12,7 @@ body {
 
 header {
   margin-top: -1.5em;
-  background-color: #250D29;
+  background-color: #CD937C;
   position: absolute;
   z-index: 1;
   width: 100%;
@@ -32,13 +32,12 @@ header {
 .nav a {
   text-decoration: none;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  color: #CD937C;
+  font-weight: 400;
+  color: #ffede6;
 }
 
 .nav a:hover {
-  color: white;
-  font-weight:300;
+  color: #82514B;
 }
 /*NAV*/
 
@@ -62,19 +61,24 @@ header {
   transform: translate(-50%, -50%);
 }
 
+.intro-1 {
+  font-family: 'Lato', sans-serif;
+  color: #82514B;
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 0;
+}
 
 .intro {
   font-family: 'Lato', sans-serif;
-  color: #B6836E;
+  color: #82514B;
+  font-weight: 400;
   font-size: 14px;
 }
 
-.intro-1 {
-  font-family: 'Lato', sans-serif;
-  color: #B6836E;
-  font-size: 32px;
+.name {
+  color: #FFEDE7;
 }
-
 
 /*HERO END*/
 
@@ -141,6 +145,14 @@ header {
   display: block;
   min-height: 100%;
 }
+
+.lightbox a {
+  font-family: 'Lato', sans-serif;
+  color: #CD937C;
+  font-weight: 300;
+  text-decoration: none;
+}
+
 /*LIGHTBOX END*/
 
 /*VIDEO*/
@@ -178,19 +190,25 @@ color: #CD937C;
     padding: 10%;
 }
 
-.blurb p {
+.talk, .talk-1, .talk-2 {
+  text-align: left;
+  font-weight: 300;
   font-family: 'Lato', sans-serif;
   color: #CD937C;
 }
 
-.talk {
+.subtitle {
+  font-family: 'Lato', sans-serif;
+  color: #CD937C;
+  margin-bottom: .25em;
   text-align: left;
-  font-weight: 300;
 }
 
 .iam {
+  font-family: 'Lato', sans-serif;
+  color: #CD937C;
   font-weight: 400;
-  word-spacing: 5px;
+  word-spacing: 2px;
 }
 /*ABOUT ME END*/
 
@@ -251,7 +269,9 @@ form input, textarea{
 /*MEDIA QUERIES*/
 @media only screen and (min-width: 400px) {
 
-
+  .intro {
+    font-size: 18px;
+  }
 
 }
 
@@ -273,7 +293,8 @@ form input, textarea{
   }
 
   .intro {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 400;
   }
 
   footer li {
@@ -290,7 +311,8 @@ form input, textarea{
   }
 
   .intro {
-    font-size: 18px;
+    font-size: 33px;
+    font-weight: 300;
   }
 
   .logo {
@@ -299,6 +321,12 @@ form input, textarea{
 
   .aboutme {
     height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .talk, .talk-1, .talk-2 {
+    font-size: 16px;
   }
 
   form {
@@ -312,10 +340,6 @@ form input, textarea{
 }
 
 @media only screen and (min-width: 1440px) {
-
-  .logo {
-    width: 20%;
-  }
 
   form{
     width: 60%;

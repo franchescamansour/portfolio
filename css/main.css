@@ -77,6 +77,7 @@ header {
 }
 
 .name {
+  font-family: 'Abril Fatface', cursive;
   color: #FFEDE7;
 }
 
@@ -85,7 +86,7 @@ header {
 /*PORTFOLIO*/
 .portfolio {
   min-height: 100vh;
-  background-color: #250d29;
+  background-color: #82514B;
 }
 
 .boxes {
@@ -180,14 +181,26 @@ header {
 /*VIDEO END*/
 
 h1 {
-font-family: 'Lato', sans-serif;
-color: #CD937C;
+  font-size: 36px;
+  font-family: 'Lato', sans-serif;
+  color: #CD937C;
 }
 /*ABOUT ME*/
 
 .aboutme {
     background-color: #ffede6;
     padding: 10%;
+}
+
+.quote {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #CD937C;
+}
+
+.bracket {
+  font-family: 'Abril Fatface', cursive;
 }
 
 .talk, .talk-1, .talk-2 {
@@ -208,7 +221,6 @@ color: #CD937C;
   font-family: 'Lato', sans-serif;
   color: #CD937C;
   font-weight: 400;
-  word-spacing: 2px;
 }
 /*ABOUT ME END*/
 
@@ -269,6 +281,10 @@ form input, textarea{
 /*MEDIA QUERIES*/
 @media only screen and (min-width: 400px) {
 
+  h1 {
+    font-size: 48px;
+  }
+
   .intro {
     font-size: 18px;
   }
@@ -306,6 +322,10 @@ form input, textarea{
 
 @media only screen and (min-width: 960px) {
 
+  h1 {
+    font-size: 60px;
+  }
+
   .intro-1 {
     font-size: 58px;
   }
@@ -320,9 +340,16 @@ form input, textarea{
   }
 
   .aboutme {
-    height: 100vh;
+    min-height: 100vh;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 5%;
+  }
+
+  .quote {
+    margin-left: 5em;
+    font-size: 30px;
+    width: 70%;
   }
 
   .talk, .talk-1, .talk-2 {
@@ -340,6 +367,16 @@ form input, textarea{
 }
 
 @media only screen and (min-width: 1440px) {
+
+  .quote {
+    margin-left: 10.5em;
+    font-size: 30px;
+    width: 50%;
+  }
+
+  .aboutme {
+    padding-bottom: 5%;
+  }
 
   form{
     width: 60%;

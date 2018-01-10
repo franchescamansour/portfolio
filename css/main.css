@@ -190,6 +190,7 @@ h1 {
 .aboutme {
     background-color: #ffede6;
     padding: 10%;
+    padding-top: 20%;
 }
 
 .quote {
@@ -199,12 +200,20 @@ h1 {
   color: #CD937C;
 }
 
+.myself {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: right;
+  margin-right: 5%;
+  color: #82514B;
+}
+
 .bracket {
   font-family: 'Abril Fatface', cursive;
 }
 
 .talk, .talk-1, .talk-2 {
-  text-align: left;
+  text-align: justify;
   font-weight: 300;
   font-family: 'Lato', sans-serif;
   color: #CD937C;
@@ -352,6 +361,10 @@ form input, textarea{
     width: 70%;
   }
 
+  .myself {
+    margin-right: 15%;
+  }
+
   .talk, .talk-1, .talk-2 {
     font-size: 16px;
   }
@@ -380,6 +393,10 @@ form input, textarea{
     margin-left: 10.5em;
     font-size: 30px;
     width: 50%;
+  }
+
+  .myself {
+    margin-right: 25%;
   }
 
   .aboutme {

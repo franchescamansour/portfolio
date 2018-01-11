@@ -2,10 +2,13 @@
 body {
  background-image:  url('../images/FranchescaMansourBackground.jpg');
  background-repeat:  no-repeat;
- background-attachment: fixed;
+
  background-size: cover;
 }
 
+.empty {
+  display: none;
+}
 
 /*NAV*/
 
@@ -43,6 +46,45 @@ header {
 
 
 /*HERO*/
+.stars {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  animation: dance 20s linear infinite;
+}
+
+@keyframes dance {
+
+  start {
+    transform: translateX(-2em);
+  }
+
+  end {
+    transform: translateX(-4em);
+  }
+
+}
+
+@keyframes dance {
+
+  0% {
+    transform: translateX(0em);
+  }
+
+  40% {
+    transform: translateX(-2em);
+  }
+
+  80% {
+    transform: translateX(2em);
+  }
+
+  100% {
+    transform: translateX(0em);
+  }
+
+}
+
 .hero {
   height: 100vh;
   padding: 10%;
@@ -233,9 +275,7 @@ h1 {
 }
 /*ABOUT ME END*/
 
-.empty{
-  height: 100vh;
-}
+
 
 /*FOOTER*/
 footer {
@@ -330,6 +370,15 @@ form input, textarea{
 }
 
 @media only screen and (min-width: 960px) {
+
+  body{
+     background-attachment: fixed;
+  }
+
+  .empty{
+    height: 100vh;
+    display: block;
+  }
 
   h1 {
     font-size: 60px;

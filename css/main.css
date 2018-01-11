@@ -51,14 +51,14 @@ header {
   top:0;
   position: absolute;
   z-index: 2;
-  animation: dancewhite 40s linear infinite;
+  animation: dancewhite 30s linear infinite;
 }
 
 .starspurple {
   bottom: 0;
   position: absolute;
   z-index: 2;
-  animation: dance 60s linear infinite;
+  animation: dance 30s linear infinite;
 }
 
 @keyframes dance {

@@ -1,8 +1,13 @@
 /**/
+html {
+  overflow-x: hidden;
+}
+
 body {
  background-image:  url('../images/FranchescaMansourBackground.jpg');
  background-repeat:  no-repeat;
  background-size: cover;
+ overflow-x: hidden;
 }
 
 .empty {
@@ -11,9 +16,7 @@ body {
 
 /*NAV*/
 
-
 header {
-  margin-top: -1.5em;
   background-color: none;;
   position: absolute;
   z-index: 100;
@@ -46,7 +49,6 @@ header {
 
 /*HERO*/
 
-
 .starswhite {
   top:0;
   position: absolute;
@@ -58,7 +60,7 @@ header {
   bottom: 0;
   position: absolute;
   z-index: 2;
-  animation: dance 30s linear infinite;
+  animation: dance 20s linear infinite;
 }
 
 @keyframes dance {
@@ -219,6 +221,8 @@ header {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 645px;
 }
 
 .lightbox img {

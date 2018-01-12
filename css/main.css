@@ -188,8 +188,8 @@ header {
 
 .def{
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  font-weight: 200;
+  font-size: 14px;
+  font-weight: 300;
   color: white;
 }
 
@@ -431,6 +431,11 @@ form input, textarea{
 
   h1 {
     font-size: 60px;
+  }
+
+  .def {
+    font-size: 16px;
+    font-weight: 300;
   }
 
   .intro-1 {

@@ -190,6 +190,10 @@ header {
   color: white;
 }
 
+.arrows {
+  width: 10%;
+}
+
 .lightbox {
   display: none;
   position: fixed;
@@ -456,6 +460,10 @@ form input, textarea{
 
   .talk, .talk-1, .talk-2 {
     font-size: 16px;
+  }
+
+  .arrows {
+    width: 5%;
   }
 
   form {

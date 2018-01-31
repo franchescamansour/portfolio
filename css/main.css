@@ -146,23 +146,24 @@ header {
 }
 
 .intro-1 {
-  font-family: 'Lato', sans-serif;
-  color: #82514B;
-  font-weight: 300;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  color: #BB999C;
   font-size: 32px;
   margin-bottom: 0;
 }
 
 .intro {
   font-family: 'Lato', sans-serif;
-  color: #82514B;
+  color: #474747;
   font-weight: 400;
   font-size: 14px;
 }
 
 .name {
-  font-family: 'Abril Fatface', cursive;
-  color: #FFEDE7;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  color: #BB999C;
 }
 
 /*HERO END*/
@@ -273,13 +274,14 @@ header {
 
 h1 {
   font-size: 36px;
-  font-family: 'Lato', sans-serif;
-  color: #82514B;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  color: #BB999C;
 }
 /*ABOUT ME*/
 
 .aboutme {
-    background-color: #ffede6;
+    background-color: #474747;
     padding: 10%;
     padding-top: 20%;
 }
@@ -288,7 +290,7 @@ h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 24px;
-  color: #CD937C;
+  color: #BB999C;
 }
 
 .myself {
@@ -296,7 +298,7 @@ h1 {
   font-weight: 300;
   text-align: right;
   margin-right: 5%;
-  color: #82514B;
+  color: #BB999C;
 }
 
 .bracket {
@@ -307,19 +309,19 @@ h1 {
   text-align: justify;
   font-weight: 300;
   font-family: 'Lato', sans-serif;
-  color: #CD937C;
+  color: #999999;
 }
 
 .subtitle {
   font-family: 'Lato', sans-serif;
-  color: #CD937C;
+  color: #ececec;
   margin-bottom: .25em;
   text-align: left;
 }
 
 .iam {
-  font-family: 'Lato', sans-serif;
-  color: #82514B;
+  font-family: 'Quicksand', sans-serif;
+  color: #ececec;
   font-weight: 400;
 }
 /*ABOUT ME END*/
@@ -328,29 +330,29 @@ h1 {
 
 /*FOOTER*/
 footer {
-  background-color: #250d29;
+  background-color: #474747;
 }
 
 footer p {
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 30px;
-  color: #B6836E;
+  color: #ececec;
 }
 
 footer a{
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   text-decoration: none;
-  color: #4C394F;
+  color: #ececec;
 }
 
 footer a:hover {
-  color: #B6836E;
+  color: #BB999C;
 }
 
 form {
-  color: #B6836E;
+  color: #ececec;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   width: 80%;
@@ -360,19 +362,19 @@ form {
 
 form input, textarea{
   background-color: transparent;
-  border-color: #4C394F;
+  border-color: #BB999C;
 }
 
 .btn{
   background-color: transparent;
-  color: #B6836E;
-  border-color: #4C394F;
+  color: #ececec;
+  border-color: #ececec;
 }
 
 .btn:hover {
   color: white;
   background-color: transparent;
-  border-color: white;
+  border-color: #BB999C;
 }
 /*FOOTER END*/
 

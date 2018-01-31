@@ -188,7 +188,7 @@ header {
 /*LIGHTBOX*/
 
 .def{
-  padding: 1.3em;
+  padding: 1.5em;
   text-align: justify;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
@@ -415,6 +415,10 @@ form input, textarea{
     font-weight: 400;
   }
 
+  .def{
+    padding: 2em;
+  }
+
   footer li {
   display: inline-block;
   padding: 2em;
@@ -506,8 +510,6 @@ form input, textarea{
   .myself {
     margin-right: 25%;
   }
-
-
 
   .aboutme {
     padding-bottom: 5%;

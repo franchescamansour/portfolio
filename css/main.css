@@ -188,6 +188,8 @@ header {
 /*LIGHTBOX*/
 
 .def{
+  padding: 1.3em;
+  text-align: justify;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -210,7 +212,7 @@ header {
 .lightboxbg {
   top: 0;
   left: 0;
-  background: rgba(150,107,91,0.9);
+  background: rgba(71,71,71,0.9);
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -470,9 +472,6 @@ form input, textarea{
     margin-right: 15%;
   }
 
-  .talk, .talk-1, .talk-2 {
-    font-size: 16px;
-  }
 
   .arrows {
     width: 5%;
@@ -507,6 +506,8 @@ form input, textarea{
   .myself {
     margin-right: 25%;
   }
+
+
 
   .aboutme {
     padding-bottom: 5%;

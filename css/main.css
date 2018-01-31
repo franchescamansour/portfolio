@@ -36,13 +36,13 @@ header {
 
 .nav a {
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  color: #ffede6;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color: #474747;
 }
 
 .nav a:hover {
-  color: #82514B;
+  color: #BB999C;
 }
 /*NAV*/
 
@@ -171,7 +171,7 @@ header {
 /*PORTFOLIO*/
 .portfolio {
   min-height: 100vh;
-  background-color: #82514B;
+  background-color: #ececec;
 }
 
 .boxes {

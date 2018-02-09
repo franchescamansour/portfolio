@@ -36,13 +36,13 @@ header {
 
 .nav a {
   text-decoration: none;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
   color: #474747;
 }
 
 .nav a:hover {
-  color: #BB999C;
+  color: white;
 }
 /*NAV*/
 

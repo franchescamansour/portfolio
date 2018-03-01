@@ -38,94 +38,16 @@ header {
   text-decoration: none;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  color: #474747;
+  color: white;
 }
 
 .nav a:hover {
-  color: white;
+  color: turquoise;
 }
 /*NAV*/
 
 
 /*HERO*/
-
-.starswhite {
-  top:0;
-  position: absolute;
-  z-index: 2;
-  animation: dancewhite 30s linear infinite;
-}
-
-.starspurple {
-  bottom: 0;
-  position: absolute;
-  z-index: 2;
-  animation: dance 20s linear infinite;
-}
-
-@keyframes dance {
-
-  start {
-    transform: translateX(-2em);
-  }
-
-  end {
-    transform: translateX(-4em);
-  }
-
-}
-
-@keyframes dance {
-
-  0% {
-    transform: translateX(0em);
-  }
-
-  40% {
-    transform: translateX(-2em);
-  }
-
-  80% {
-    transform: translateX(2em);
-  }
-
-  100% {
-    transform: translateX(0em);
-  }
-
-}
-
-@keyframes dancewhite {
-
-  start {
-    transform: translateX(-4em);
-  }
-
-  end {
-    transform: translateX(-2em);
-  }
-
-}
-
-@keyframes dancewhite {
-
-  0% {
-    transform: translateX(0em);
-  }
-
-  40% {
-    transform: translateX(2em);
-  }
-
-  80% {
-    transform: translateX(-2em);
-  }
-
-  100% {
-    transform: translateX(0em);
-  }
-
-}
 
 .hero {
   height: 100vh;
@@ -148,22 +70,10 @@ header {
 .intro-1 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
-  color: #BB999C;
-  font-size: 32px;
+  transform: rotate(-7deg);
+  color: black;
+  font-size: 50px;
   margin-bottom: 0;
-}
-
-.intro {
-  font-family: 'Lato', sans-serif;
-  color: #474747;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.name {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
-  color: #BB999C;
 }
 
 /*HERO END*/
@@ -186,15 +96,6 @@ header {
 /*PORTFOLIO END*/
 
 /*LIGHTBOX*/
-
-.def{
-  padding: 1.5em;
-  text-align: justify;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  color: white;
-}
 
 .arrows {
   width: 10%;
@@ -248,70 +149,25 @@ header {
   text-decoration: none;
 }
 
-/*LIGHTBOX END*/
-
-/*VIDEO*/
-/*
-.embed {
-  margin-left: 0;
-  margin-right: 0;
-  position: relative;
-  width: 100%;
-  z-index: 0;
-}
-
-.embed-16by9 {
-  padding-top: 56.25%;
-}
-
-.embed-item {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-*/
-/*VIDEO END*/
-
 h1 {
   font-size: 36px;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
-  color: #BB999C;
+  font-family: 'Lato', sans-serif;
+  color: turquoise;
 }
 /*ABOUT ME*/
 
+.blurb{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+}
+
 .aboutme {
-    background-color: #474747;
-    padding: 10%;
-    padding-top: 20%;
-}
-
-.quote {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 24px;
-  color: #BB999C;
-}
-
-.myself {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  text-align: right;
-  margin-right: 5%;
-  color: #BB999C;
-}
-
-.bracket {
-  font-family: 'Abril Fatface', cursive;
-}
-
-.talk, .talk-1, .talk-2 {
-  text-align: justify;
-  font-weight: 300;
-  font-family: 'Lato', sans-serif;
-  color: #999999;
+    background-color: black;
+    height: 50vh;
+    position: relative;
 }
 
 .subtitle {
@@ -323,8 +179,8 @@ h1 {
 
 .iam {
   font-family: 'Quicksand', sans-serif;
-  color: #ececec;
-  font-weight: 400;
+  color: white;
+  font-weight: 200;
 }
 /*ABOUT ME END*/
 
@@ -332,29 +188,29 @@ h1 {
 
 /*FOOTER*/
 footer {
-  background-color: #474747;
+  background-color: black;
 }
 
 footer p {
   font-family: 'Lato', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 30px;
-  color: #ececec;
+  color: white;
 }
 
 footer a{
-  font-family: 'Lato', sans-serif;
-  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
   text-decoration: none;
-  color: #ececec;
+  color: white;
 }
 
 footer a:hover {
-  color: #BB999C;
+  color: turquoise;
 }
 
 form {
-  color: #ececec;
+  color: white;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   width: 80%;
@@ -364,19 +220,19 @@ form {
 
 form input, textarea{
   background-color: transparent;
-  border-color: #BB999C;
+  border-color: white;
 }
 
 .btn{
   background-color: transparent;
-  color: #ececec;
-  border-color: #ececec;
+  color: white;
+  border-color: white;
 }
 
 .btn:hover {
-  color: white;
+  color: turquoise;
   background-color: transparent;
-  border-color: #BB999C;
+  border-color: turquoise;
 }
 /*FOOTER END*/
 
@@ -387,13 +243,17 @@ form input, textarea{
     font-size: 48px;
   }
 
-  .intro {
-    font-size: 18px;
-  }
-
 }
 
 @media only screen and (min-width: 608px) {
+
+  h1 {
+    font-size: 90px;
+  }
+
+  .aboutme {
+    height: 80vh;
+  }
 
   .menu {
     text-align: right;
@@ -407,16 +267,7 @@ form input, textarea{
   }
 
   .intro-1 {
-    font-size: 36px;
-  }
-
-  .intro {
-    font-size: 20px;
-    font-weight: 400;
-  }
-
-  .def{
-    padding: 2em;
+    font-size: 70px;
   }
 
   footer li {
@@ -438,21 +289,11 @@ form input, textarea{
   }
 
   h1 {
-    font-size: 60px;
-  }
-
-  .def {
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 100px;
   }
 
   .intro-1 {
-    font-size: 58px;
-  }
-
-  .intro {
-    font-size: 33px;
-    font-weight: 300;
+    font-size: 90px;
   }
 
   .logo {
@@ -464,16 +305,6 @@ form input, textarea{
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
-  }
-
-  .quote {
-    margin-left: 5em;
-    font-size: 30px;
-    width: 70%;
-  }
-
-  .myself {
-    margin-right: 15%;
   }
 
 
@@ -493,26 +324,13 @@ form input, textarea{
 
 @media only screen and (min-width: 1440px) {
 
-  .intro-1 {
-    font-size: 85px;
+
+  .iam {
+    font-size: 24px;
   }
 
-  .intro {
-    font-size: 49px;
-  }
-
-  .quote {
-    margin-left: 10.5em;
-    font-size: 30px;
-    width: 50%;
-  }
-
-  .myself {
-    margin-right: 25%;
-  }
-
-  .aboutme {
-    padding-bottom: 5%;
+  h1 {
+    font-size: 120px;
   }
 
   form{

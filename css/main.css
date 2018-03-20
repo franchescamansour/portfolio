@@ -228,8 +228,13 @@ h1 {
 
 
 /*FOOTER*/
+.wrapperfooter{
+  transform: translateY(20%);
+}
+
 footer {
   background-color: black;
+  height: 100vh;
 }
 
 footer p {
@@ -260,6 +265,7 @@ form {
 }
 
 form input, textarea{
+  font-weight: 300;
   background-color: transparent;
   border-color: rgba(0,89,82,.8);
 }
@@ -292,7 +298,6 @@ form input, textarea{
     font-size: 80px;
   }
 
-
   .aboutme {
     height: 80vh;
   }
@@ -310,6 +315,10 @@ form input, textarea{
 
   .intro-1 {
     font-size: 70px;
+  }
+
+  .wrapperfooter{
+    transform: translateY(10%);
   }
 
   footer li {
@@ -360,6 +369,10 @@ form input, textarea{
 
   footer {
     height: 100vh;
+  }
+
+  .wrapperfooter{
+    transform: translateY(0%);
   }
 
 }
